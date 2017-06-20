@@ -1,0 +1,3 @@
+* store the PHP files in C:/wamp64/www
+
+<?php phpinfo(); ?> display phpinfo(), php information page
