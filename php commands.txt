@@ -1,3 +1,5 @@
 * store the PHP files in C:/wamp64/www
 
 <?php phpinfo(); ?> : display phpinfo(), php information page
+
+<?php echo "Hello Youtubers! " . 17*5; ?> : display "Hello Youtubers! 85"
