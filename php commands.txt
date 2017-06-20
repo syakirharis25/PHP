@@ -9,3 +9,44 @@
 <?php 	/*This is a multi-line
 		comment. You may write as much 
 		as you wish to write*/ ?>			: add PHP multi-line comment
+
+<?php
+		$first="Good Morning!";
+		$second=" Have a nice day!";
+		$third=$first;
+		echo $third;
+		echo "<br />";
+		$third .= $second;
+		echo "{$third}<br />";
+		echo strtoupper($third);
+		echo "<br />";
+		echo strtolower($third);
+		echo "<br />";
+		echo ucwords($third);
+		echo "<br />";
+		echo $third;
+		?>								: display $third variable contents : 'Good Morning!', break statement, append $second variable contents into $third variable contents, display the updated $third variable contents : 'Good Morning! Have a nice day!', break statement, transform all characters in $third to be in upper case string format, display updated $third variable contents : 'GOOD MORNING! HAVE A NICE DAY', break statement, transform all characters in $third to be in lower case string format, display updated $third variable contents : 'good morning! have a nice day!', break statement, transform every first character of words in $third to be in upper case letter, display updated $third variable contents : 'Good Morning! Have A Nice Day'
+
+		<?php
+		$msg="Have a nice day! ";
+		echo $msg;
+		echo "<br />";
+		echo strlen($msg);
+		echo "<br />";
+		echo str_replace("nice", "great", $msg);
+		echo "<br />";
+		echo str_repeat($msg,3);
+		echo "<br />";
+		echo substr($msg, 5, 11);
+		?>											: display $msg:'Have a nice day', break statement, display length of $msg, display $msg after replace 'nice' with 'great':'Have a great day', break statement, display $msg 3 times, break statement, display $msg starting from 5th position, counting from 0th position, and 11 places afterwards:'a nice day!'
+
+		<?php 
+		$msg="Have a nice day!";
+		echo $msg;
+		echo "<br />";
+		echo strstr($msg, "nice");
+		echo "<br />";
+		echo strpos($msg, "nice");
+		echo "<br />";
+		echo strchr($msg, 'i');
+		?>							: display $msg:'Have a nice day!', break statement, display $msg starting from 'nice' word:'nice day!', break statement, display 'nice' starting position in $msg, break statement, display $msg starting from 'i':'ice day!'
