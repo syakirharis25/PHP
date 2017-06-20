@@ -2,4 +2,10 @@
 
 <?php phpinfo(); ?> : display phpinfo(), php information page
 
-<?php echo "Hello Youtubers! " . 17*5; ?> : display "Hello Youtubers! 85"
+<?php echo "Hello Youtubers! " . 17*5; ?> : display 'Hello Youtubers! 85'
+
+<?php 	//This is a single line comment ?> : add PHP single line comment
+
+<?php 	/*This is a multi-line
+		comment. You may write as much 
+		as you wish to write*/ ?>			: add PHP multi-line comment
