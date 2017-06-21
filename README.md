@@ -1,2 +1,2 @@
 # PHP
-All my works related to PHP
+My works related to PHP

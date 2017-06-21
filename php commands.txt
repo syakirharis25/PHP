@@ -92,4 +92,16 @@
 	$myarr=[8,10,15,[19,23,28,30]];
 	echo $myarr[3][1]; echo "<br />";
 	print_r($myarr);
-?>											: display array position of 3 for $arr[3] which is 'Jim', break statement, array position of 0 for $arr[0] which is '15', break statement, change array position of 1 for $arr[1] to value 25, array position of 1 $arr[1] which is '25'', break statement, print all the value for array $arr, break statement, array position of 3 then array position of 1 for $myarray[3][1], break statement, print all arrays for $myarr 
+?>											: display array position of 3 for $arr[3] which is 'Jim', break statement, array position of 0 for $arr[0] which is '15', break statement, change array position of 1 for $arr[1] to value 25, array position of 1 $arr[1] which is '25'', break statement, print all the value for array $arr, break statement, array position of 3 then array position of 1 for $myarray[3][1], break statement, print all arrays for $myarr
+
+<?php 
+	$arr=array("name"=>"John", "email"=>"john@gmail.com");
+	echo "Name: " . $arr["name"]; echo "<br />";
+	echo "Email: " . $arr["email"]; echo "<br />";
+	$myarr=array(array("name"=>"John", "email"=>"john@gmail.com")
+				,array("name"=>"Jack", "email"=>"jack@gmail.com"));
+	echo $myarr[0]["name"]; echo "<br />";
+	echo $myarr[0]["email"]; echo "<br />";
+	echo $myarr[1]["name"]; echo "<br />";
+	echo $myarr[1]["email"]; echo "<br />";
+?> 																	: display 'Name: John', break statement, 'john@gmail.com', break statement, 'John', break statement, 'john@gmail.com', break statement, 'Jack', break statement, 'jack@gmail.com'
