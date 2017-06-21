@@ -81,3 +81,15 @@
 	echo is_float($mynum); echo "<br />";
 	echo is_numeric($mynum);
 ?>											: display rounded number of $mynum and keep 2 decimal places:15.66, $mynum ceiling number:16, $mynum floor number:15,check if $mynum is an integer number, check if $mynum is a floating number, check if $mynum is a numerical number
+
+<?php 
+	$arr=array(15,10,85.78,"Jim","Peter");
+	echo $arr[3]; echo "<br />";
+	echo $arr[0]; echo "<br />";
+	$arr[1]=25;
+	echo $arr[1]; echo "<br />";
+	print_r($arr); echo "<br />";
+	$myarr=[8,10,15,[19,23,28,30]];
+	echo $myarr[3][1]; echo "<br />";
+	print_r($myarr);
+?>											: display array position of 3 for $arr[3] which is 'Jim', break statement, array position of 0 for $arr[0] which is '15', break statement, change array position of 1 for $arr[1] to value 25, array position of 1 $arr[1] which is '25'', break statement, print all the value for array $arr, break statement, array position of 3 then array position of 1 for $myarray[3][1], break statement, print all arrays for $myarr 
