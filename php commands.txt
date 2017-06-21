@@ -50,3 +50,34 @@
 		echo "<br />";
 		echo strchr($msg, 'i');
 		?>							: display $msg:'Have a nice day!', break statement, display $msg starting from 'nice' word:'nice day!', break statement, display 'nice' starting position in $msg, break statement, display $msg starting from 'i':'ice day!'
+
+<?php
+	$num1=25;
+	$num2=5;
+	echo $num1+$num2; echo "<br />"; //Addition
+	echo $num1-$num2; echo "<br />"; //Subtraction
+	echo $num1*$num2; echo "<br />"; //Multiplication
+	echo $num1/$num2; echo "<br />"; //Division
+	echo ++$num1; echo "<br />"; //Pre-increment
+	echo $num1--; echo "<br />"; //Post-Decrement
+	echo $num1;
+?>														: display ($num1 + $num2 : 30), break statement, ($num1 - $num2 : 20), break statement, ($num1 * $num2 : 125), break statement, ($num1 / $num2 : 5), break statement, (++$num1 : 26), break statement, ($num1-- : 26), break statement, ($num1 : 25)
+
+<?php 
+	echo "Absolute Value: " . abs(-450); echo "<br />";
+	echo "Power Result: " . pow(2,10); echo "<br />";
+	echo "Random Number: " . rand(); echo "<br />";
+	echo "Random Number Within Range: " . rand(30,45); echo "<br />";
+	echo "Remainder: " . fmod(27,5); echo "<br />";
+	echo "Square Root: " . sqrt(225); echo "<br />";
+?>																		: display absolute value of -450 which is 450, break statement, 2 to the power of 10 which is 1024, break statement, any random number, break statement, random number within the range of 30 and 45, break statement, remainder of 27 divided by 5, break statement, square root of 225, break statement
+
+<?php 
+	$mynum=15.6589;
+	echo round($mynum, 2); echo "<br />";
+	echo ceil($mynum); echo "<br />";
+	echo floor($mynum); echo "<br />";
+	echo is_int($mynum); echo "<br />";
+	echo is_float($mynum); echo "<br />";
+	echo is_numeric($mynum);
+?>											: display rounded number of $mynum and keep 2 decimal places:15.66, $mynum ceiling number:16, $mynum floor number:15,check if $mynum is an integer number, check if $mynum is a floating number, check if $mynum is a numerical number
