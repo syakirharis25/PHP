@@ -105,3 +105,23 @@
 	echo $myarr[1]["name"]; echo "<br />";
 	echo $myarr[1]["email"]; echo "<br />";
 ?> 																	: display 'Name: John', break statement, 'john@gmail.com', break statement, 'John', break statement, 'john@gmail.com', break statement, 'Jack', break statement, 'jack@gmail.com'
+
+<?php
+	$arr=array(15,10,3,19,7,62,8,5,12);
+	echo "No. of elements: " . count($arr); echo "<br />";
+	echo "Maximum Value: " . max($arr); echo "<br />";
+	echo "Minimum Value: " . min($arr); echo "<br />";
+	echo "Sorted: ";
+	sort($arr);
+	print_r($arr); echo "<br />";
+	echo "Reverse Sorted: ";
+	rsort($arr);
+	print_r($arr);
+	echo "<br />";
+	$str=implode('-',$arr);
+	echo $str; echo "<br />";
+	$vowels="A E I O U";
+	print_r(explode(" ",$vowels)); echo "<br />";
+	echo in_array(26,$arr); echo "<br />";
+	echo in_array(10,$arr); echo "<br />";
+?>																: display 'No. of elements: 9', break statement, 'Maximum Value: 62', break statement, 'Minimum Value: 3', break statement, sorted $arr array values, break statement, reverse sorted $arr array value, break statement, put hyphen '-' between each value of $arr array, display $vowels array after separating them with spaces, break statement, check whether number 26 is within $arr array, break statement, check whether number 10 is within $arr array, break statement
